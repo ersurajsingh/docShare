@@ -1,0 +1,143 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #343a40;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #ff4757;
+  width: 100%;
+  position: fixed; 
+  top: 0;
+  left: 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  margin-left: 2 rem;
+}
+
+.navbar-menu {
+  display: flex;
+}
+
+.navbar-item {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+}
+
+.navbar-item:hover {
+  background-color: #ff4757;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+}
+
+.content {
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 600px;
+  width: 100%;
+  margin: 2rem 1rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.shorten-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shorten-form input {
+  width: 100%;
+  max-width: 500px;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+  transition: border-color 0.3s;
+}
+
+.shorten-form input:focus {
+  border-color: #ff4757;
+  outline: none;
+}
+
+.shorten-form button {
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+}
+
+.shorten-form button:hover {
+  background-color: #104e8b;
+}
+
+.error-message {
+  color: #ff4757;
+  margin-top: 1rem;
+}
+
+.result-container {
+  margin-top: 2rem;
+}
+
+.result-title {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.shortened-link {
+  color: #1e90ff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.link-stats {
+  margin-top: 1rem;
+}
+
+.link-stats p {
+  font-size: 1rem;
+  color: #666;
+}
